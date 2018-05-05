@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5"  >
+	<test name="Bangalore+Selenium+CH">
+		<parameter name="jobType" value="Selenium" />
+		<parameter name="location" value="Banagalore" />
+		 <parameter name="browserType" value="FF" />
+			<classes>
+				<class name="org.tq.openmrs.ParametersEx" />
+			</classes>
+	</test> <!-- Test -->
+	 
+</suite> <!-- Suite -->
