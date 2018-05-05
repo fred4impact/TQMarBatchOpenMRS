@@ -3,6 +3,7 @@ package org.tq.utility;
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -54,6 +55,7 @@ public class DriverFactory
 		{
 			driver = instantiateWebDriver();
 			setDriver(driver);
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		}
 		return driver;
 		
