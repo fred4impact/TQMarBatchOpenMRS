@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
+//Gurupreet Tester1 Day1 merged the code from the branch into master.
 public class ParametersEx {
 
 	WebDriver driver;
