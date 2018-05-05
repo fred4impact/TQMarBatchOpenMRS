@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import org.tq.openmrs.pages.LoginPage;
 import org.tq.openmrs.pages.ServiceTypesPage;
 import org.tq.utility.BaseClass;
-
+//Adding lines by TEster1
 public class DeleteServiceTypes extends BaseClass {
 	 
 	 
